@@ -1,11 +1,11 @@
-export const Announcebar = () => {
-    return (
-        <div className="w-full flex items-center justify-center">
-        <nav className="w-full z-20 top-0 px-4 py-2">
+export default function Announcebar() {
+  return (
+      <div className="relative w-full">
+        <nav className="px-4 py-2">
           <div className="text-center mx-auto py-1">
             <p className="text-xs text-center tracking-tight">
               Bonusberegner.dk er en annonceside.{" "}
-              <a href="" className="text-blue-400 hover:text-blue-600">
+              <a href="#" className="text-blue-400 hover:text-blue-600">
                 Sådan tjener vi penge
               </a>
             </p>
@@ -28,7 +28,7 @@ export const Announcebar = () => {
               </div>
             </div>
           </div>
-          </nav>
-        </div>
-    );
-}
+        </nav>
+      </div>
+  );
+};

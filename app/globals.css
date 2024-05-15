@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --lightgrey: #D9D9D9;
+  --lightgrey: #F5F5F5;
   --lightbonusred: #EE2F4F;
   --bonusred: #C8102E;
   --darkbonusred: #970C23;
   --bonusgreen: #2EC810;
+  --bonusgold: #FFD700;
   --paragraphgray: #71717a;
 
 }
@@ -22,9 +23,7 @@ html, body {
 
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers navbar and other contents horizontally */
+
 }
 
 /* making bonusglow animation, apply these styles when want to be used */
