@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   ArrowPathIcon,
@@ -32,6 +32,21 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+      setDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <header className="p-4">
@@ -65,8 +80,11 @@ export default function Navbar() {
           </div>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-paragraphgray-900 focus:outline-none">
+          <Popover className="relative" ref={dropdownRef}>
+            <Popover.Button
+              className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-paragraphgray-900 focus:outline-none"
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+            >
               🧠 Bliv klogere på
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-paragraphgray-400"
@@ -76,6 +94,7 @@ export default function Navbar() {
 
             <Transition
               as={Fragment}
+              show={dropdownOpen}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
               enterTo="opacity-100 translate-y-0"
@@ -83,7 +102,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-sm overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
@@ -119,13 +138,13 @@ export default function Navbar() {
             href="#"
             className="text-sm font-semibold leading-6 text-paragraphgray-900"
           >
-            🇩🇰 Bookmakere
+            🇩🇰 Bookmakers
           </a>
           <a
             href="#"
             className="text-sm font-semibold leading-6 text-paragraphgray-900"
           >
-            🏆 Odds bonus
+            🏆 Generel viden
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -194,13 +213,13 @@ export default function Navbar() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-white"
                 >
-                  🇩🇰 Bookmakere
+                  🇩🇰 Bookmakers
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-white"
                 >
-                  🏆 Odds bonus
+                  🏆 Generel viden
                 </a>
               </div>
               <div className="py-6">

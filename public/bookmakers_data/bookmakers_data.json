@@ -1,0 +1,689 @@
+[
+  {
+    "name": "Bet25",
+    "offer": "100% freebet op til 500 kr.",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+      "minimum_odds": "1.50",
+      "wagering_requirements": "1x bonusbeløb",
+      "minimum_deposit": "50 kr.",
+      "max_deposit": "500 kr.",
+      "bonus_code": "Ingen bonuskode påkrævet",
+      "bonus_type": "Kun hvis tabt",
+      "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Kun for nye spillere | Indbetal min. 100kr. | Få din indsats som Freebet, hvis du taber | Gyldigt 7 dage fra indbetaling | Spil ansvarligt | Selvudelukkelse: rofus.nu | Spillemyndighedens hjælpelinje: stopspillet.dk",
+    "logo": "/bookmakers_data/logos/Bet25.png",
+    "link": "https://www.promo.bet25.dk/sport/velkommen?gad_source=1&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUnW8rgSxzykLcJLQ_RMML7eJpMX5bmappqZ9N2pQ0MDReno9spfXhhoCM_QQAvD_BwE",
+    "rating": "9.7",
+    "verified": true,
+    "contact_info": {
+      "email": "Kontaktformular på hjemmeside",
+      "live_chat": "Hele døgnet",
+      "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino"],
+    "live_streaming": "Nej",
+    "license": {
+      "danish_license": true,
+      "license_year": 2012
+    },
+    "founded": 2011,
+    "overview": "Betting Gjort Simpelt: Bet25 simplificerer din bettingoplevelse. Grundlagt i 2011 og med dansk licens, specialiserer de sig i sportsbetting og casino spil uden dikkedarer. Fokuseret på brugervenlighed, er det den perfekte start for nye spillere. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+      "title": "Bet25: En Dybdegående Anmeldelse af Deres Sportsbetting og Casino",
+      "introduction": "Bet25, grundlagt i 2011 og licenseret under dansk lovgivning, er kendt for sit fokus på sportsbetting og et effektivt casino. Med en klar og brugervenlig platform tilbyder de sikre og underholdende spilmuligheder for alle typer spillere.",
+      "freebet_offer": "Nye spillere hos Bet25 kan nyde godt af et 100% freebet op til 500 kr., som er perfekt for at komme godt fra start uden risiko. Denne velkomstbonus giver en sjælden mulighed for at teste forskellige spil og strategier.",
+      "game_selection": "Bet25's sportsbook inkluderer populære og niche sportsgrene med muligheder for betting før kampen og in-play. Deres casino sektion har et bredt udvalg af slots og klassiske bordspil, der appellerer til forskellige præferencer.",
+      "security_measures": "Med teknologier som SSL-kryptering og regulering fra den danske Spillemyndighed, garanterer Bet25 et sikkert spillemiljø og beskyttelse af personlige oplysninger.",
+      "customer_service": "Bet25 tilbyder kundesupport hele døgnet rundt gennem live chat og email, sikrer at hjælp er tilgængelig når som helst det er nødvendigt.",
+      "special_features": "Funktioner som Cash Out og en intuitiv mobil app forbedrer spiloplevelsen, gør det nemt for spillere at styre deres væddemål og spille fra hvor som helst.",
+      "conclusion": "For dem, der søger en pålidelig og brugervenlig bettingoplevelse, tilbyder Bet25 solid service og gode muligheder. Deres fokus på brugervenlighed og sikkerhed gør dem til et attraktivt valg for danske spillere.",
+      "call_to_action": [
+        "Begynd at spille hos Bet25",
+        "Besøg Bet25's officielle hjemmeside.",
+        "Registrér en konto for at få adgang til velkomsttilbuddet.",
+        "Udforsk de mange spil og bettingmuligheder tilgængelige."
+      ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+  },
+  {
+    "name": "Vbet",
+    "offer": "100% freebet op til 500 kr.",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+      "minimum_odds": "1.50",
+      "wagering_requirements": "1x bonusbeløb",
+      "minimum_deposit": "50 kr.",
+      "max_deposit": "500 kr.",
+      "bonus_code": "Ingen bonuskode påkrævet",
+      "bonus_type": "Efter gyldigt væddemål",
+      "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Kun for nye spillere | Indbetal min. 100kr. | Indbetaling og bonus omsættes 8x | Min. odds 1.95 | Gyldig i 90 dage | Spil ansvarligt | Selvudelukkelse: rofus.nu | Spillemyndighedens hjælpelinje: stopspillet.dk",
+    "logo": "/bookmakers_data/logos/Vbet.png",
+    "link": "https://promo.vbet.dk/da/sports-welcome-offer?utm_campaign=brand&utm_source=googleads&utm_medium=paid-search&utm_content=vbet+bonus&gad_source=1&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUstnbCV-ypeyE6GCD6Bxx6kpN0gNYBLvTfcl9-UecV9iB-a-BX5WixoC1C4QAvD_BwE",
+    "rating": "9.6",
+    "verified": true,
+    "contact_info": {
+      "email": "support@vbet.dk",
+      "live_chat": "Hele døgnet",
+      "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Live Casino"],
+    "live_streaming": "Ja",
+    "license": {
+      "danish_license": true,
+      "license_year": 2020
+    },
+    "founded": 2003,
+    "overview": "Vær Voldig med VBet: VBet tilbyder friske spilperspektiver siden 2003, med en ny dansk licens fra 2020. Deres platform tilbyder en innovativ tilgang til sportsbetting og casino. Oplev spænding i hver væddemål og vind stort på både traditionelle og nye markeder. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+      "title": "VBet: Fuldstændig Anmeldelse af Sportsbetting og Casino Muligheder",
+      "introduction": "VBet, etableret i 2003 og med dansk licens fra 2020, er kendt for sin innovative tilgang til online betting og casino. Med et stort udvalg af spil og væddemålsmuligheder, tilbyder VBet en dynamisk spiloplevelse for alle typer spillere.",
+      "freebet_offer": "VBet byder nye spillere velkommen med et 100% freebet op til 500 kr., hvilket giver en fremragende start for nye medlemmer. Dette tilbud kræver en indsats på minimum 100 kr. og inkluderer spændende betingelser for at maksimere spillelysten.",
+      "game_selection": "Fra fodbold og basketball til e-sports og skak, VBet dækker et enormt spektrum af sportsbegivenheder samt tilbyder live betting for at øge spændingen. Casinoet hos VBet er også veludstyret med slots, bordspil og live dealer spil.",
+      "security_measures": "VBet anvender den nyeste SSL-krypteringsteknologi for at sikre spillerdata og finansielle transaktioner. Med deres danske spillelicens er spillere garanteret en retfærdig og sikker spilleoplevelse.",
+      "customer_service": "Spillere kan nå VBet’s kundeservice 24/7 via live chat og email, hvilket sikrer at hjælp altid er tilgængelig, uanset tidspunktet.",
+      "special_features": "VBet tilbyder en række innovative features som Cash Out, hvilket giver spillere mulighed for at sikre gevinster eller reducere tab midt i et spil. Dette, sammen med en brugervenlig mobil app, gør spiloplevelsen både sjov og fleksibel.",
+      "conclusion": "VBet er en stærk spiller på det danske marked med et imponerende udvalg af betting og casino muligheder. For spillere, der søger innovation og sikkerhed, er VBet et oplagt valg.",
+      "call_to_action": [
+        "Sådan kommer du i gang med VBet",
+        "Besøg VBet online.",
+        "Opret en konto og gør krav på dit freebet.",
+        "Nyd det brede udvalg af sportsbetting og casino spil."
+      ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+  },
+  {
+    "name": "Betsson",
+    "offer": "100% freebet op til 500 kr.",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+      "minimum_odds": "1.50",
+      "wagering_requirements": "1x bonusbeløb",
+      "minimum_deposit": "50 kr.",
+      "max_deposit": "500kr .",
+      "bonus_code": "Ingen bonuskode påkrævet",
+      "bonus_type": "Efter gyldigt væddemål",
+      "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Spil ansvarligt | Selvudelukkelse via ROFUS.nu | Kontakt Spillemyndighedens hjælpelinje på StopSpillet.dk. | Kun for nye spillere bosat i Danmark - Får indsats med i gevinsten ved freebet - Kun hvis første bet tabte - Minimum odds 1.5 | Gennemspilskrav: 500 kr",
+    "logo": "/bookmakers_data/logos/Betsson.png",
+    "link": "https://tilbud.betsson.dk/da/wo-sportsbook?_gl=1*1e582b8*_ga*OTI1MTU2MzkuMTcxMTIxMDI5NQ..*_ga_4L2RPF9TVQ*MTcxMjk0NTYwMS42LjEuMTcxMjk0NTYwMy41OC4wLjA.",
+    "rating": "9.2",
+    "verified": true,
+    "contact_info": {
+      "email": "Kontaktformular på hjemmeside",
+      "live_chat": "Hele døgnet",
+      "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Poker"],
+    "live_streaming": "Ja",
+    "license": {
+      "danish_license": true,
+      "license_year": 2012
+    },
+    "founded": 2001,
+    "overview": "Bet på Det Bedste: Betsson byder dig velkommen med åbne arme og en verden af betting siden 2001. Dansk licenseret fra 2012, tilbyder de alt fra sportsbetting til poker og live casino. Bliv en del af et sikret spilfællesskab og oplev betting med stil. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+      "title": "Betsson: Detaljeret Gennemgang af Betting og Casino Muligheder",
+      "introduction": "Betsson har været en styrke i online spil siden 2001 og fortsætter med at tilbyde en af de mest pålidelige og indholdsrig spilleplatforme under dansk licens siden 2012. Kendt for deres brugervenlige interface og bred vifte af spilmuligheder, er Betsson et foretrukket valg for mange danske spillere.",
+      "freebet_offer": "Nye spillere hos Betsson bliver budt velkommen med et 100% freebet. Dette initiativ giver en god start med et væddemål, hvor kun gevinsterne udbetales - et perfekt tilbud for dem, der ønsker at minimere deres risiko.",
+      "game_selection": "Betsson tilbyder odds på alt fra fodbold og håndbold til dart og snooker, herunder både pre-game og live betting optioner. Med deres omfattende dækning er der altid nye og spændende væddemål at placere.",
+      "security_measures": "Under overvågning af den danske Spillemyndighed sikrer Betsson et trygt spillemiljø med avanceret datasikkerhed og fair play-garantier.",
+      "customer_service": "Kundeservice hos Betsson er åben 24/7, klar til at hjælpe med ethvert problem via chat, telefon, eller e-mail. Hurtig og effektiv hjælp er altid tilgængelig.",
+      "special_features": "Med funktioner som Cash Out og Bet Builder, lader Betsson spillere tilpasse deres betting og sikre gevinster før tid. Disse værktøjer forbedrer spiloplevelsen og giver mere kontrol.",
+      "conclusion": "Betsson er en pålidelig partner for online betting og casino spil, hvor sikkerhed og kundetilfredshed er i højsædet. Deres velkomsttilbud og løbende kampagner gør dem til en attraktiv mulighed for spillere på alle niveauer.",
+      "call_to_action": [
+        "Start din Betsson-oplevelse nu",
+        "Gå til Betsson’s hjemmeside.",
+        "Opret en konto og foretag din første indbetaling.",
+        "Placer dit freebet og begynd at udforske det store spiludvalg."
+      ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+  },
+  {
+    "name": "Unibet",
+    "offer": "100% op til 1000 kr.",
+    "offer_type": "Matched Deposit",
+    "bonus_rules": {
+      "minimum_odds": "1.50",
+      "wagering_requirements": "8x bonusbeløb",
+      "minimum_deposit": "50 kr.",
+      "max_deposit": "1000 kr.",
+      "bonus_code": "Ingen bonuskode påkrævet",
+      "bonus_type": "Med det samme",
+      "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Spil ansvarligt | Selvudelukkelse via ROFUS.nu | Kontakt Spillemyndighedens hjælpelinje på StopSpillet.dk. | Kun for nye spillere bosat i Danmark - Freebettet skal benyttes som et kombivæddemål - Minimum odds 1.8",
+    "logo": "/bookmakers_data/logos/Unibet.png",
+    "link": "https://www.unibet.dk/bonus",
+    "rating": "9.4",
+    "verified": true,
+    "contact_info": {
+      "email": "Kontaktformular på hjemmeside",
+      "live_chat": "Hele døgnet",
+      "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Poker", "Bingo"],
+    "live_streaming": "Ja",
+    "license": {
+      "danish_license": true,
+      "license_year": 2012
+    },
+    "founded": 1997,
+    "overview": "Unik Betting Oplevelse: Unibet garanterer top-underholdning med en omfattende sportsbook og diverse casino spil siden 1997. Med dansk spillelicens, tilbyder de en tryg og ansvarlig spiloplevelse med masser af live betting muligheder. Oplev sport og spil på nye måder. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+      "title": "Unibet: En Omfattende Anmeldelse af deres Tilbud",
+      "introduction": "Unibet, etableret i 1997 og med en dansk licens fra 2012, er anerkendt for sin omfattende sportsbook og kvalitets casino spil. Som en af de førende spiludbydere i Europa, tilbyder Unibet sikker og ansvarlig spil under de danske regulativer.",
+      "freebet_offer": "Unibet byder nye spillere velkommen med et tilbud på 100% op til 1000kr. Dette giver spillere en fantastisk mulighed for at doble deres første indskud og øge deres chancer for succes på både sportsbetting og i casinoet.",
+      "game_selection": "Med et spændende udvalg af markeder fra traditionelle sportsgrene som fodbold og tennis til esports og vintersport, sikrer Unibet at der er noget for enhver smag. Live betting tilbydes også, så du kan spille på kampe i realtid.",
+      "security_measures": "Unibet anvender SSL-kryptering for at beskytte spillerdata og opretholder høje sikkerhedsstandarder for at garantere en sikker spilleoplevelse.",
+      "customer_service": "Unibets kundeservice er tilgængelig hele døgnet, klar til at svare på spørgsmål eller løse eventuelle problemer, uanset når de opstår.",
+      "special_features": "Unibet er fremme i skoene med innovative løsninger som deres in-play betting og en mobil app, der gør det muligt for spillere at spille når som helst, hvor som helst.",
+      "conclusion": "Unibet tilbyder en robust platform for både betting og casino med stærke bonusser og kundesupport. Det er en ideel platform for dem, der søger et sikkert og engagerende sted at spille online.",
+      "call_to_action": [
+        "Sådan kommer du i gang med Unibet",
+        "Besøg Unibet online.",
+        "Registrer dig og lav en indbetaling for at aktivere din velkomstbonus.",
+        "Nyd fordelene ved din bonus og start din spilleoplevelse."
+      ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+  },
+  {
+    "name": "Comeon",
+    "offer": "100% op til 500kr",
+    "offer_type": "Matched Deposit",
+    "bonus_rules": {
+      "minimum_odds": "1.80",
+      "wagering_requirements": "7x bonus sum",
+      "minimum_deposit": "100 kr.",
+      "max_deposit": "500 kr.",
+      "bonus_code": "Ingen bonuskode påkrævet",
+      "bonus_type": "Med det samme",
+      "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Spil ansvarligt | Selvudelukkelse via ROFUS.nu | Kontakt Spillemyndighedens hjælpelinje på StopSpillet.dk. | Kun for nye spillere bosat i Danmark - Minimum odds 1.8 | Gennemspilskrav: 7x Bonus sum",
+    "logo": "/bookmakers_data/logos/Comeon.png",
+    "link": "https://media.comeon.com/tracking.php?tracking_code&aid=119778&mid=4947&sid=458186&pid=3102",
+    "rating": "9.5",
+    "verified": true,
+    "contact_info": {
+      "email": "Kontaktformular på hjemmeside",
+      "live_chat": "Hele døgnet",
+      "phone": "Hele døgnet"
+    },
+    "products": ["Casino", "Live Casino", "Sport & Live Betting"],
+    "live_streaming": "Ja",
+    "license": {
+      "danish_license": true,
+      "license_year": 2019
+    },
+    "founded": 2009,
+    "overview": "Oplev Spændingen: Kom med til spændingen hos ComeOn, en top-rated online spilleplatform grundlagt i Sverige i 2010 og stolt indehaver af en dansk spillelicens siden 2019. Udforsk et bredt udvalg af sportsbetting og casino spil fra fodbold og tennis til niche sportsgrene som bordtennis og badminton. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+      "title": "ComeOn: En Grundig Anmeldelse af Bonusser, Sportsbetting og Casino Funktioner",
+      "introduction": "ComeOn er en fremtrædende spiludbyder, som oprindeligt blev etableret i Sverige i 2010. Siden da har ComeOn udvidet deres tilbud og markeder betydeligt og sikrede sig i 2019 en officiel dansk spillelicens, hvilket er en garanti for sikkerhed og regulering for danske spillere.",
+      "freebet_offer": "ComeOn ønsker nye spillere velkommen med åbne arme og en attraktiv velkomstbonus, der matcher enhver første indbetaling 100% op til 500 kr. For at aktivere denne bonus, skal du oprette en konto, foretage en indbetaling på mindst 100 kr, og følge de enkle gennemspilskrav. Denne indbydende startpakke er ideel for nye spillere, som ønsker at fordoble deres spillekapital fra start.",
+      "game_selection": "ComeOn tilbyder et bredt og varieret udbud af bettingmuligheder, der inkluderer populære sportsgrene som fodbold, tennis, og basketball samt niche sportsgrene som bordtennis og badminton. Med muligheder for at satse ned til de næstøverste ligaer i top fodboldnationer demonstrerer ComeOn deres omfattende markedsdækning.",
+      "security_measures": "Under den danske Spillemyndigheds strenge regulativer garanterer ComeOn et sikkert spillemiljø med fair play. Alle personlige og økonomiske informationer beskyttes med SSL-kryptering, hvilket sikrer at dine data er sikre.",
+      "customer_service": "ComeOns kundeservice er tilgængelig 24 timer i døgnet via live chat og e-mail. Dette sikrer at du altid kan få hjælp når du har brug for det, uanset tidspunkt.",
+      "special_features": "Med funktioner som Cash Out giver ComeOn spillere kontrol over deres væddemål og muligheden for at trække deres indsats tilbage før spillets afslutning. Platformen er brugervenlig og let at navigere, hvilket gør den tilgængelig for både nye spillere og erfarne bettors.",
+      "conclusion": "ComeOn er ikke kun en bookmaker, men en omfattende platform for online betting og casino spil, der står stærkt i både sikkerhed og kundeservice. Med en stærk velkomstbonus og et kontinuerligt flow af promoveringer, tilbyder ComeOn en fuldendt spilleoplevelse for både nye og erfarne spillere.",
+      "call_to_action": [
+        "Kom godt i gang med ComeOn",
+        "Besøg ComeOns hjemmeside igennem vores grønne knap.",
+        "Klik på ‘Opret Konto’ og fuldfør registreringsprocessen.",
+        "Foretag en indbetaling og aktivér din velkomstbonus for at begynde din betting rejse."
+      ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+  },
+  {
+    "name": "Spreadex",
+    "offer": "2 x freebet 500kr",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+        "minimum_odds": "1.50",
+        "wagering_requirements": "1x bonusbeløb",
+        "minimum_deposit": "1.000 kr.",
+        "max_deposit": "N/A",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "4 dage - 4 x 250 kr.",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Kun nye spillere | Min. indbetaling: 1.000 kr. | Gratis væddemål: 500 kr. til sportsbook og 500 kr. til spreadbetting efter første indskud gennemspillet 1x til min. odds 1,50 | Gennemspilskrav inden 60 dage | Regler og vilkår gælder | Spil ansvarligt | Spillemyndighedens hjælpelinje StopSpillet.dk: 70 22 28 25 | Udeluk dig via ROFUS.nu",
+    "logo": "/bookmakers_data/logos/Spreadex.png",
+    "link": "https://www.spreadex.dk/sports/da/1000kr-welcome-bonus/?tid=557878&kw=spreadex&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUpP55nSutmLg8xZPCocHrlDXwtsNm8Ku6KIcYA7zqoR9Q7uZdJkxmBoCLzYQAvD_BwE",
+    "rating": "9.9",
+    "verified": true,
+    "contact_info": {
+        "email": "info@spreadex.com",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sports Spread Betting", "Fixed Odds Betting", "Casino"],
+    "live_streaming": "Nej",
+    "license": {
+        "danish_license": true,
+        "license_year": "N/A"
+    },
+    "founded": 1999,
+    "overview": "Spred Din Succes: Spreadex tilbyder en unik blanding af sports spread betting og casino spil uden dansk licens. Specialiseret i avancerede betting-strategier, dette er stedet for den erfarne better, som søger udfordringer og nye måder at vinde på. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Spreadex: En Omfattende Guide til Sports Spread Betting og Casino",
+        "introduction": "Spreadex, grundlagt i 1999, skiller sig ud som en af de få tilbydere af sports spread betting. De kombinerer dette unikke tilbud med traditionelle fixed odds og et veludstyret casino, hvilket gør dem til et unikt valg for gamblere.",
+        "freebet_offer": "Nye kunder hos Spreadex kan drage fordel af to separate freebets på op til 500 kr. hver, perfekt for at prøve både sportsbook fixed odds og spred betting. Disse tilbud giver en fantastisk introduktion til spread betting og mere.",
+        "game_selection": "Spreadex tilbyder en sjælden mulighed for at engagere sig i spread betting, en form for væddemål, der giver mulighed for høj gevinst baseret på nøjagtigheden af dit bet. Dette, sammen med deres omfattende marked for fixed odds, sikrer en spændende spiloplevelse.",
+        "security_measures": "Med licens fra både UK Gambling Commission og compliance med danske spillelove, tilbyder Spreadex en sikker og pålidelig platform. Alle personlige og finansielle oplysninger er sikret med den seneste krypteringsteknologi.",
+        "customer_service": "Spreadex’s kundeservice er tilgængelig hele døgnet, hver dag, klar til at besvare spørgsmål eller løse udfordringer gennem live chat, email og telefon.",
+        "special_features": "Med en avanceret trading platform og muligheden for at vælge mellem spread og fixed odds, tilbyder Spreadex fleksibilitet og dybde, som er svær at finde andre steder.",
+        "conclusion": "For bettors, der søger en anderledes og mere dynamisk bettingoplevelse, er Spreadex det perfekte sted. Med robuste sikkerhedsforanstaltninger, spændende bettingmuligheder og konkurrencedygtige tilbud, er de et sikkert og attraktivt valg for seriøse spillere.",
+        "call_to_action": [
+            "Hvordan du starter hos Spreadex",
+            "Åbn Spreadex's website.",
+            "Skab en konto og udnyt de generøse velkomsttilbud.",
+            "Begynd din rejse inden for spread betting og nyd godt af de mange spiltilbud."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "Bwin",
+    "offer": "100% freebet",
+    "offer_type": "Backupspil",
+    "bonus_rules": {
+        "minimum_odds": "1.80",
+        "wagering_requirements": "Ingen gennemspil",
+        "minimum_deposit": "1000 kr.",
+        "max_deposit": "500 kr",
+        "bonus_code": "Husk aktivering af backupspil",
+        "bonus_type": "Kun hvis tabt",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+| Kun for nye verificerede spillere | Kun for det allerførste væddemål | Fulde vilkår og betingelser er gældende. Maks. bonus - 100% op til 500 kr. Væddemålstype, Enkelt/kombination – Væddemålsmarked, Live/Før-kamp. Min. odds for væddemål, 1.80. Min. odds for hvert valg i kombinationsvæddemål, 1.50. Væddemålstatus, Vundet/tabt. Gyldighed i 60 dage.",
+    "logo": "/bookmakers_data/logos/Bwin.png",
+    "link": "https://www.bwin.dk/da/mobileportal/promotions/sports/8040",
+    "rating": "9.2",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Poker"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2012
+    },
+    "founded": 1997,
+    "overview": "Vær en Vinder med Bwin: Deltag i action med Bwin, et globalt sportsbetting og casino fænomen siden 1997. Med en dansk licens sikrer de troværdig og retfærdig spilning. Prøv din hånd ved fodbold, basket, eller poker og oplev international spænding fra komforten af dit hjem. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Bwin: Dybdegående Anmeldelse af deres Sportsbook og Casino",
+        "introduction": "Bwin har været en global leder i online betting siden 1997 og tilbyder nu også dansk licenseret spilleglæde. Kendt for deres dynamiske bettingmuligheder og spændende spilatmosfære, er Bwin et sikkert valg for seriøse spillere.",
+        "freebet_offer": "Hos Bwin modtager nye spillere et 100% freebet hvis deres første væddemål ikke vinder. Dette tilbud giver nye brugere en fantastisk start, med mulighed for at teste forskellige strategier uden risiko.",
+        "game_selection": "Udvalget hos Bwin inkluderer alt fra fodbold og basketball til skak og e-sport. Med live betting muligheder og odds på både store og små events, er der altid noget at komme efter.",
+        "security_measures": "Med licens fra den danske Spillemyndighed garanterer Bwin en sikker spiloplevelse. Alle transaktioner og spilledata er beskyttet med avanceret krypteringsteknologi.",
+        "customer_service": "Bwin’s kundeservice er åben 24 timer i døgnet og tilbyder support gennem live chat, email, og telefon, hvilket sikrer at du kan få hjælp når som helst.",
+        "special_features": "Bwin skiller sig ud med deres Cash Out-funktion og en brugervenlig mobil app, der lader dig spille på farten. Dette gør det let og bekvemt at holde styr på dine væddemål.",
+        "conclusion": "Bwin tilbyder en omfattende og involverende bettingoplevelse med robuste sikkerhedsforanstaltninger og en hjælpsom kundeservice. Et ideelt valg for den krævende spiller.",
+        "call_to_action": [
+            "Kom i gang med Bwin",
+            "Gå ind på Bwin’s hjemmeside.",
+            "Registrer en konto og lav din første indbetaling.",
+            "Nyd godt af det risikofrie freebet og begynd din spillekarriere."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "Cashpoint",
+    "offer": "100% freebet op til 500kr",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+        "minimum_odds": "N/A",
+        "wagering_requirements": "10x bonus",
+        "minimum_deposit": "75 kr",
+        "max_deposit": "1.000 kr",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Efter første væddemål",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Kun nye spillere | Min. indbetaling: 75 kr. – maks. 1.000 kr. | Bonus har omsætningskrav x ti (10) og vægtes kun mod Casino spil | Eks. hvis man får 100 kr. i bonus skal man spille 100 x 10 = 1.000 kr. | Bonus er gyldig i tres (60) dage | Regler og vilkår gælder | Spil ansvarligt | Spillemyndighedens hjælpelinje StopSpillet.dk: 70 22 28 25 | Udeluk dig via ROFUS.nu",
+    "logo": "/bookmakers_data/logos/Cashpoint.png",
+    "link": "https://www.cashpoint.dk/en/page/welcome-bonus",
+    "rating": "9.6",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino"],
+    "live_streaming": "Nej",
+    "license": {
+        "danish_license": true,
+        "license_year": 2012
+    },
+    "founded": 1996,
+    "overview": "Punktet Hvor Alle Vinder: Cashpoint sikrer en solid betting foundation med en dansk licens siden 2012. Med et fokus på sportsbetting og intuitiv brugervenlighed, tilbyder de en transparent og pålidelig spilleplatform. Perfekt for dem, der værdsætter enkelthed og effektivitet. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Cashpoint: Fuldstændig Anmeldelse af Sportsbetting og Casino",
+        "introduction": "Cashpoint, etableret i 1996 og licenseret i Danmark, har længe været en favorit blandt danske spillere for deres pålidelige betting og casino tilbud. Deres platform kombinerer brugervenlighed med et bredt udvalg af spillemuligheder, hvilket gør dem til et ideelt valg for både nye og erfarne spillere.",
+        "freebet_offer": "Cashpoint byder nye brugere velkommen med et 100% freebet op til 500 kr. Dette tilbud er perfekt for dem, der ønsker at starte deres spilleeventyr uden risiko og med muligheden for at fordoble deres første indbetaling.",
+        "game_selection": "Fra fodbold og basketball til tennis og håndbold, Cashpoint dækker et imponerende spektrum af sportsgrene. Deres casino tilbyder også en række populære slots og bordspil, sikrer at der er noget for enhver smag.",
+        "security_measures": "Cashpoint opererer under streng overholdelse af danske spillelove, hvilket sikrer en fair og sikker spilleoplevelse. Alle spillerdata er beskyttet med avanceret kryptering, hvilket giver en tryg og sikker platform.",
+        "customer_service": "Med kundeservice tilgængelig 24/7 gennem live chat og email, er Cashpoint dedikeret til at tilbyde hurtig og effektiv hjælp til deres spillere.",
+        "special_features": "Cashpoint tilbyder en række moderne spilfunktioner, herunder Cash Out og en brugervenlig mobil app, hvilket gør det let for spillere at styre deres væddemål og spille fra hvor som helst.",
+        "conclusion": "Cashpoint står stærkt som en betroet og alsidig spiludbyder. Med deres brede udvalg af spilmuligheder, engagerende velkomsttilbud, og top-tier sikkerhedsforanstaltninger, er de et fremragende valg for spillere, der søger en altomfattende spiloplevelse.",
+        "call_to_action": [
+            "Sådan kommer du i gang med Cashpoint",
+            "Besøg Cashpoint’s hjemmeside.",
+            "Opret en konto og gør krav på dit freebet.",
+            "Begynd at udforske det omfattende spiludvalg tilbudt."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "LeoVegas",
+    "offer": "100% freebet",
+    "offer_type": "Live mobil freebet",
+    "bonus_rules": {
+        "minimum_odds": "1.80",
+        "wagering_requirements": "1x bonusbeløb",
+        "minimum_deposit": "50 kr",
+        "max_deposit": "1000 kr.",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Efter første væddemål",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Kun for nye kunder | Indbetal og spil min. 50kr. | Min. odds 1.20 | Gyldig i 60 dage | Væddemålskreditter kan ikke udbetales | Spil ansvarligt | Selvudelukkelse: rofus.nu | Spillemyndighedens hjælpelinje: stopspillet.dk",
+    "logo": "/bookmakers_data/logos/LeoVegas.png",
+    "link": "https://www.leovegas.com/da-dk/kampagner/velkomst-tilbud",
+    "rating": "9.4",
+    "verified": true,
+    "contact_info": {
+        "email": "support@leovegas.com",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Casino", "Live Casino", "Sportsbetting"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2016
+    },
+    "founded": 2011,
+    "overview": "Kongen af Casino: LeoVegas regerer i casino verdenen med en brølende samling af spil siden 2011. Med dansk licens fra 2016, dyk ned i deres sport betting og live casino spil og spil som en konge. Oplev mobil-optimale spiloplevelser, hvor end du er. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "LeoVegas: Omfattende Anmeldelse af Mobilt Casino og Sportsbetting",
+        "introduction": "LeoVegas, kendt som \"Kongen af mobil casino\" siden grundlæggelsen i 2011, har revolutioneret mobilspil med deres brugerfokuserede interface og bredt udvalg af spil. Med en dansk licens opnået i 2016, tilbyder de en sikker og regulér spiloplevelse direkte på din smartphone.",
+        "freebet_offer": "Nye medlemmer hos LeoVegas bliver mødt med et 100% freebet, hvilket gør det til et ideelt startpunkt for nye spillere. Dette tilbud er perfekt til at opleve deres omfattende sportsbook uden risiko.",
+        "game_selection": "Udover at være førende inden for mobil casino, tilbyder LeoVegas også væddemål på en lang række sportsbegivenheder, fra fodbold til tennis og mere eksotiske sportsgrene. Med intuitive mobilapps, er spil på farten nemmere end nogensinde.",
+        "security_measures": "LeoVegas tager sikkerheden seriøst, med SSL-kryptering der beskytter alle transaktioner og spildata rigorøst. Dette sikrer en tryg spiloplevelse, støttet af deres licens fra den danske Spillemyndighed.",
+        "customer_service": "Med kundeservice tilgængelig 24/7 via live chat og email, står LeoVegas klar til at hjælpe dig uanset dit behov. Hurtig og effektiv hjælp er altid lige ved hånden.",
+        "special_features": "LeoVegas skinner med sine innovative bettingmuligheder, herunder Cash Out, som giver spillere mulighed for at sikre gevinster eller minimere tab. Deres engagement i teknologisk innovation ses tydeligt i deres brugervenlige mobil platform.",
+        "conclusion": "LeoVegas fortsætter med at imponere som en topudbyder af mobilspil og betting. Med stærke tilbud og konstant innovation, er LeoVegas det oplagte valg for den moderne spiller.",
+        "call_to_action": [
+            "Kom i gang med LeoVegas",
+            "Besøg LeoVegas' hjemmeside.",
+            "Opret en konto for at modtage dit freebet.",
+            "Begynd at udforske det store udvalg af spil og bettingmuligheder."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "Bet365",
+    "offer": "100% op til 1000 kr.",
+    "offer_type": "Betkreditter",
+    "bonus_rules": {
+        "minimum_odds": "1.40",
+        "wagering_requirements": "8x bonus",
+        "minimum_deposit": "40 kr",
+        "max_deposit": "1000 kr.",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Efter første væddemål",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Kun for nye spillere | Indbetal min. 40kr. | Gennemspil bonus 8x | Min. odds 1.40 | Gyldig i 60 dage | Spil ansvarligt | Selvudelukkelse: rofus.nu | Spillemyndighedens hjælpelinje: stopspillet.dk",
+    "logo": "/bookmakers_data/logos/Bet365.png",
+    "link": "https://www.bet365.dk/hub/da-dk/open-account-offer?affiliate=365_01426879&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUqxCz99cCyUCSj8qPAPIQbcZCfNx0ryx7r0I9Y_pHdr2djKmLEoaGxoC5OMQAvD_BwE",
+    "rating": "9.1",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Poker", "Games", "Bingo"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2012
+    },
+    "founded": 2000,
+    "overview": "Gå All-in med Bet365: Bet365, en titan indenfor online spil, byder på alt fra sportsbetting til bingo. Med dansk licens siden 2012, er de din go-to for pålidelig betting og real-time spilhandling. Vælg Bet365 for en omfattende og engagerende spiloplevelse. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Bet365: Grundig Gennemgang af Sportsbetting og Casino",
+        "introduction": "Bet365, et af de mest anerkendte navne i online spil, tilbyder en omfattende bettingoplevelse med en dansk spillelicens sikret siden 2012. De er kendt for deres dybdegående markedsdækning og høje brugertilfredshed.",
+        "freebet_offer": "Nye kunder hos Bet365 kan nyde godt af 100% væddemålskreditter op til et bestemt beløb, hvilket er en fantastisk måde at starte din bettingkarriere på. Disse kreditter kan anvendes på et bredt spektrum af spil og begivenheder.",
+        "game_selection": "Bet365 skiller sig ud med deres brede udvalg af sportsbettingmuligheder, der omfatter alt fra fodbold og cricket til rugby og hestevæddeløb. Deres live betting platform er en af de bedste i branchen, med realtids odds og markeder.",
+        "security_measures": "Sikkerhed er topprioritet hos Bet365, hvor alle data er beskyttet med avanceret kryptering. Spillernes velfærd understøttes også af deres compliance med danske og internationale spillelovgivninger.",
+        "customer_service": "Bet365's kundeservice er tilgængelig rundt om uret, klar til at løse eventuelle udfordringer du måtte støde på. Support er tilgængelig via live chat, email, og telefon.",
+        "special_features": "Med funktioner som Auto Cash Out og Bet Builder, giver Bet365 spillerne mere kontrol og fleksibilitet over deres væddemål. Disse værktøjer forbedrer den samlede spiloplevelse og tillader en mere personlig tilgang til betting.",
+        "conclusion": "Bet365 er en fuldservice sportsbetting og casino platform, der tilbyder exceptionel værdi og service. Hvis du søger en altomfattende spiloplevelse, er Bet365 stedet at være.",
+        "call_to_action": [
+            "Start dit eventyr hos Bet365",
+            "Gå ind på Bet365’s hjemmeside.",
+            "Tilmeld dig og kvalificer dig til væddemålskreditter.",
+            "Udforsk deres omfattende sportsbook og casino spil."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "Expekt",
+    "offer": "100% op til 1000 kr.",
+    "offer_type": "Kombi-freebet",
+    "bonus_rules": {
+        "minimum_odds": "1.80",
+        "wagering_requirements": "Kombinationskupon",
+        "minimum_deposit": "100 kr",
+        "max_deposit": "1000 kr",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Efter første bet",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Regler og vilkår gælder | Kun for nye spillere | Indbetal og spil min. 100kr. | Min. odds 1.80 | Gyldig i 60 dage | Freebet skal bruges live på mobil | Spil ansvarligt | Selvudelukkelse: rofus.nu | Spillemyndighedens hjælpelinje: stopspillet.dk",
+    "logo": "/bookmakers_data/logos/NyeExpekt.png",
+    "link": "https://www.expekt.dk/?btag=100666674_6FCCBE1E40B14A50890C823B64D5736E&utm_source=google&utm_medium=cpc&utm_campaign=PPC-DK-EX-ACQ-TextAd-Combined-ALL-GOO-P2P-BRA&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUpeQdbP7MXrzqJQv0PGqpqXw2zVVd4h5oWmQbNxiZMVJeuzq91WG5BoCfbkQAvD_BwE&pid=3762984&bid=20389",
+    "rating": "9.7",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2017
+    },
+    "founded": 1999,
+    "overview": "Forvent Mere: Nye Expekt revitaliserer din spiloplevelse med en dansk licens fra 2017. Kendt for sikkert og variabelt spil, tilbyder de alt fra sportsbetting til casino. Deltag i deres platform og forvent at blive underholdt på hver side. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Nye Expekt: Grundig Gennemgang af Spilplatformen",
+        "introduction": "Nye Expekt, relanceret med en frisk vision og en dansk licens siden 2017, tilbyder en forbedret bettingoplevelse med særlig fokus på mobile brugere. Deres platform er optimeret for både nye spillere og erfarne bettors, der søger værdi og innovation i deres spil.",
+        "freebet_offer": "Til nye spillere byder Nye Expekt velkommen med et 100% kombi-freebet op til 1000 kr. Dette unikke tilbud understøtter særligt live betting via mobil, hvilket gør det ideelt for spillere på farten.",
+        "game_selection": "Nye Expekt dækker et bredt udvalg af sportsbegivenheder, fra fodbold og basketball til mindre kendte sportsgrene. Deres live betting-sektion er særlig robust, tilbyder realtidsspil på en lang række events.",
+        "security_measures": "Sikkerheden er topprioritet hos Nye Expekt, som anvender avanceret SSL-kryptering for at sikre brugernes data. Som licensholder under den danske Spillemyndighed er alle spil og betting-aktiviteter fuldt reguleret og sikre.",
+        "customer_service": "Med 24/7 tilgængelighed via live chat og e-mail, er Nye Expekt's kundeservice altid klar til at hjælpe, sikrer at spillere kan få assistance når som helst.",
+        "special_features": "Med innovative funktioner som in-play betting og en mobil-venlig platform, giver Nye Expekt spillere fleksibilitet og kontrol over deres betting, uanset hvor de befinder sig.",
+        "conclusion": "Med et stærkt fokus på mobilbetting og live spil, er Nye Expekt en ideel platform for spillere, der ønsker en dynamisk og engagerende spiloplevelse. Deres velkomsttilbud og bettingsmuligheder gør dem til en fremtrædende aktør på det danske marked.",
+        "call_to_action": [
+            "Sådan kommer du i gang med Nye Expekt",
+            "Åbn Nye Expekt’s hjemmeside.",
+            "Opret en konto og aktivér dit kombi-freebet.",
+            "Start dit spileventyr og nyd live betting på din mobil."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+
+{
+    "name": "NordicBet",
+    "offer": "100% freebet op til 500kr",
+    "offer_type": "Freebet",
+    "bonus_rules": {
+        "minimum_odds": "1.80",
+        "wagering_requirements": "500 kr.",
+        "minimum_deposit": "500 kr",
+        "max_deposit": "500 kr",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Efter første væddemål",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Kun nye spillere | Gyldigt i 60 dage efter oprettelse | Placer et væddemål hvor indsatsen er minimum 500 kr. og et valg er til min. odds 1.8 og få et freebet på 500 kr. | Gevinster du vinder fra dit freebet udbetales til din konto uden omsætningskrav. | Indsatsen fra dit freebet udbetales ikke | Regler og Vilkår gælder",
+    "logo": "/bookmakers_data/logos/Nordicbet.png",
+    "link": "https://kampagner.nordicbet.dk/welcome-offer/da/?_gl=1*1dimvt7*_ga*NjQ3ODE4NTAxLjE3MTEyMTAwMTY.*_ga_4JPMMWXCXK*MTcxMjk0NjA4Mi41LjEuMTcxMjk0NjA5MS41MS4wLjA.",
+    "rating": "9.6",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Casino", "Live Casino", "Sportsbetting", "Live Betting"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2012
+    },
+    "founded": 2002,
+    "overview": "Udforsk Nordens Bedste: Spring ind i spillet med NordicBet, en førende skandinavisk sportsbetting og casino platform etableret i 2002. Med licens fra Danmark siden 2012, tilbyder de en sikker spiloplevelse med et væld af muligheder fra populære sportsgrene til spændende casino klassikere. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "NordicBet: En Fuldstændig Guide til Sportsbetting og Casino",
+        "introduction": "NordicBet står som en bastion for nordisk spilleglæde siden 2002 og er blevet en favorit blandt danske spillere med sin licens fra 2012. Dette er stedet, hvor nordisk design møder omfattende spillemuligheder i en sikker og reguleret online atmosfære.",
+        "freebet_offer": "Nye spillere hos NordicBet kan glæde sig til et 100% freebet op til 500 kr. Dette tilbud kræver en minimumsindsats på 500 kr. til mindst odds 1.8, og det bedste ved dette freebet? Eventuelle gevinster er dine til at beholde, helt uden omsætningskrav.",
+        "game_selection": "Hos NordicBet finder man ikke bare fodbold, tennis, og ishockey, men også nichebetting på tv-programmer og politiske begivenheder. Deres markedsdækning er bred og inkluderer både store og små ligaer globalt.",
+        "security_measures": "NordicBet sikrer deres spilleres data med SSL-kryptering og opererer under streng overholdelse af den danske Spillemyndigheds regulativer, hvilket garanterer en fair og sikker spilleoplevelse.",
+        "customer_service": "Uanset tidspunktet er NordicBet’s kundeservice klar til at assistere dig via live chat eller e-mail. Dette sikrer, at du altid kan få hjælp, når behovet opstår.",
+        "special_features": "NordicBet tilbyder avancerede bettingfunktioner som Cash Out, hvilket giver spillerne mulighed for at sikre gevinster eller minimere tab før tid. Dette, sammen med deres intuitive platform, gør dem til et topvalg for danske spillere.",
+        "conclusion": "Med et solidt udvalg af spillemuligheder, en stærk velkomstbonus, og top sikkerhedsforanstaltninger, er NordicBet en sikker vinder for både nye og erfarne bettors.",
+        "call_to_action": [
+            "Start din rejse hos NordicBet",
+            "Besøg NordicBet’s hjemmeside.",
+            "Opret en konto og foretag en kvalificerende indbetaling.",
+            "Placer dit første væddemål og nyd godt af dit freebet."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "888Sport",
+    "offer": "100% op til 500 kr.",
+    "offer_type": "Live ekstraspil",
+    "bonus_rules": {
+        "minimum_odds": "2.0",
+        "wagering_requirements": "1x bonusbeløb",
+        "minimum_deposit": "100 kr",
+        "max_deposit": "500 kr",
+        "bonus_code": "Bonuskode: SPORT",
+        "bonus_type": "Kun hvis tabt",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Kun nye brugere. Minimum indbetaling 100 kr. med tilbudskode. Placer et kvalificerende bet på mindst 100 kr. på et sportsmarked inden 30 dage efter indbetaling. Maksimal refundering 500 kr. Ekstra Bet udløber efter 60 dage. Ekstra-indsatser ikke inkluderet i returneringer. Indbetalingsmetoder og begrænsninger gælder. | Spil ansvarligt: rofus.nu, stopspillet.dk.",
+    "logo": "/bookmakers_data/logos/888Sport.png",
+    "link": "https://www.888sport.dk/promotions/",
+    "rating": "9.7",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino", "Poker"],
+    "live_streaming": "Ja",
+    "license": {
+        "danish_license": true,
+        "license_year": 2012
+    },
+    "founded": 2008,
+    "overview": "Triple Otte Spænding: 888Sport inviterer dig til at opleve deres omfattende betting og casino univers. Med dansk licens siden 2012, står de klar med alt fra pokerturneringer til live sportsbetting. Engager dig i deres spændende spiltilbud og vind stort. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "888Sport: Detaljeret Anmeldelse af Online Betting og Casino",
+        "introduction": "888Sport, en del af det prestigefyldte 888 Holdings, har været en stærk konkurrent i online betting siden 2008. Med en dansk licens, tilbyder de en sikker og regulær spilleplatform, der er både dynamisk og brugervenlig.",
+        "freebet_offer": "Nye brugere hos 888Sport kan nyde godt af et 100% ekstraspil op til 500kr, hvilket er perfekt for at kickstarte din spillekarriere. Dette tilbud gør det muligt for spillere at fordoble deres første bet og øge deres chancer for gevinst.",
+        "game_selection": "888Sport tilbyder odds på et væld af sportsgrene, fra de største fodboldligaer til amerikansk fodbold og tennis. Deres betting-marked inkluderer både pre-match og live betting muligheder, perfekt for både planlagte bets og spontane beslutninger.",
+        "security_measures": "Som en licenseret spiludbyder i Danmark, opretholder 888Sport højeste standarder af sikkerhed og integritet. Alle spillerdata er beskyttet med avancerede sikkerhedsprotokoller, og fair play er garanteret.",
+        "customer_service": "Med 24/7 kundesupport tilgængelig via live chat, email og telefon, står 888Sport altid klar til at assistere dig, uanset hvad dit problem måtte være.",
+        "special_features": "888Sport går foran med innovative spilfunktioner som Cash Out, som giver spillere mulighed for at trække sig fra bets før tid. Deres platform er også optimeret til mobil, hvilket sikrer en fremragende spiloplevelse, selv på farten.",
+        "conclusion": "888Sport er en ideel platform for sportsentusiaster og bettors, der værdsætter en bred vifte af spilmuligheder og top sikkerhed. Med attraktive promotions og en engagerende spiloplevelse, er 888Sport et sikkert valg for din næste spilledestination.",
+        "call_to_action": [
+            "Start din 888Sport-oplevelse",
+            "Besøg 888Sport's hjemmeside.",
+            "Registrer en konto og indbetal for at aktivere dit ekstraspil.",
+            "Placer dit første væddemål og nyd de mange spil muligheder."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+},
+{
+    "name": "Tipwin",
+    "offer": "100% op til 800kr",
+    "offer_type": "Matched Deposit",
+    "bonus_rules": {
+        "minimum_odds": "1.8",
+        "wagering_requirements": "7x bonusbeløb",
+        "minimum_deposit": "100 kr",
+        "max_deposit": "800 kr",
+        "bonus_code": "Ingen bonuskode påkrævet",
+        "bonus_type": "Med det samme",
+        "potential_win": "Bonusbeløb fratrækkes"
+    },
+    "disclaimer": "Reklame | 18+ | Kun nye brugere. Minimum indbetaling 100 kr. med tilbudskode. Placer et kvalificerende bet på mindst 100 kr. på et sportsmarked inden 30 dage efter indbetaling. Maksimal refundering 800 kr. Ekstra Bet udløber efter 60 dage. Ekstra-indsatser ikke inkluderet i returneringer. Indbetalingsmetoder og begrænsninger gælder. | Spil ansvarligt: rofus.nu, stopspillet.dk.",
+    "logo": "/bookmakers_data/logos/Tipwin.png",
+    "link": "https://www.tipwin.dk/dk/auth/register?afc=cd67a73b3b4011edae98f0921c0b5c48",
+    "rating": "9.5",
+    "verified": true,
+    "contact_info": {
+        "email": "Kontaktformular på hjemmeside",
+        "live_chat": "Hele døgnet",
+        "phone": "Hele døgnet"
+    },
+    "products": ["Sportsbetting", "Casino"],
+    "live_streaming": "Nej",
+    "license": {
+        "danish_license": true,
+        "license_year": 2016
+    },
+    "founded": 2011,
+    "overview": "Tip Top Betting: Tipwin tilbyder no-nonsense betting med fokus på sportsbetting. Med dansk licens siden 2016, garanterer de enkel og retfærdig spiloplevelse. Dette er dit sted for grundlæggende betting uden forvirring. Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder",
+    "review": {
+        "title": "Tipwin: Omfattende Anmeldelse af deres Sportsbook",
+        "introduction": "Tipwin, etableret i 2011 og licenseret i Danmark siden 2016, tilbyder en strømlinet og effektiv online bettingoplevelse. Kendt for sin brugervenlighed og brede markedsdækning, er Tipwin et populært valg blandt danske spillere.",
+        "freebet_offer": "Tipwin lokker nye spillere med et attraktivt tilbud: 100% op til 800kr, der kan bruges på alle sportsmarkeder. Dette gør det nemt for nye brugere at fordoble deres spillemuligheder lige fra start.",
+        "game_selection": "Fra internationale fodboldligaer til lokale sportsbegivenheder, Tipwin tilbyder betting på et bredt udvalg af sportsgrene. Deres platform understøtter både pre-match og in-play betting, hvilket giver spillere mulighed for at engagere sig i spændingen når som helst.",
+        "security_measures": "Med streng overholdelse af danske spillelovgivninger sikrer Tipwin en sikker bettingoplevelse. Alle personlige oplysninger og transaktioner er beskyttet med state-of-the-art sikkerhedsteknologi.",
+        "customer_service": "Tipwin’s kundesupport er tilgængelig 24 timer i døgnet, 7 dage om ugen, via live chat, e-mail og telefon, hvilket sikrer, at hjælp er ved hånden, uanset når du har brug for det.",
+        "special_features": "Tipwin skiller sig ud med enkelthed og effektivitet i deres bettingplatform, hvilket er ideelt for både nye spillere og erfarne gamblers, der værdsætter en no-nonsense tilgang til online gambling.",
+        "conclusion": "For dem, der søger en pålidelig og brugervenlig online bookmaker, tilbyder Tipwin en værdig oplevelse med fremragende kundeservice og sikre bettingmuligheder.",
+        "call_to_action": [
+            "Sådan kommer du i gang med Tipwin",
+            "Åbn Tipwins hjemmeside.",
+            "Opret en konto og indbetal.",
+            "Start dit spileventyr og den gode bonus."
+        ]
+    },
+    "responsibility_disclaimer": "Reklame | 18+ | Spil ansvarligt | Regler og vilkår gælder | StopSpillet.dk | ROFUS"
+}
+]

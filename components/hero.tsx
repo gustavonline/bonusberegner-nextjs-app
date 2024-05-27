@@ -8,7 +8,6 @@ import {
   CalculatorIcon,
   MapIcon,
 } from "@heroicons/react/24/outline";
-import animationData from '/Users/gustavanderson/Downloads/bonusberegner-app/public/sport-animation.json'; // Update with the actual path to your Lottie JSON file
 
 export const Hero = () => {
   const [email, setEmail] = useState("");
@@ -83,7 +82,6 @@ export const Hero = () => {
                 >
                   Privacy Policy
                 </a>
-                .
               </div>
             </form>
           </div>
@@ -91,12 +89,11 @@ export const Hero = () => {
 
        {/* Right Section: Lottie Animation */}
        <div className="relative flex flex-col items-center justify-center w-full lg:w-1/2 p-6">
-          <div className="w-[300px] h-[10px] rounded-lg bg-[#dcdcdc]"></div>
           <div className="relative w-[400px] h-[400px]">
             <Player
               autoplay
               loop
-              src={animationData}
+              src="/lion-animation.json"
               style={{ height: '100%', width: '100%' }}
             />
           </div>
