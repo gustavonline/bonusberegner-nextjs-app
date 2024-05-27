@@ -43,7 +43,7 @@ const BonusGuide = () => {
         <button className="w-full h-9 text-xs rounded-lg text-white bg-bonusred hover:bg-darkbonusred mt-6">
             Lær mere
         </button>
-        <p className="text-xs text-center text-paragraphgray">i vores '🧠 Bliv klogere på' sektion</p>
+        <p className="text-xs text-center text-paragraphgray">i vores bliv klogere på sektion</p>
       </div>
     </div>
   );
