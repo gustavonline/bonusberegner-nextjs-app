@@ -3,9 +3,6 @@
 import { ChangeEvent, useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import {
-  CheckCircleIcon,
-  InformationCircleIcon,
-  CalculatorIcon,
   MapIcon,
 } from "@heroicons/react/24/outline";
 

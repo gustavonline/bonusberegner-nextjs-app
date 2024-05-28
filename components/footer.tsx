@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer className="bg-lightgrey text-stoneblack py-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-6 space-y-8 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-6 space-y-8 md:space-y-0">
           <div className="flex flex-col items-start space-y-2 md:space-y-4">
             {["Generel viden", "Kontakt Os", "Privacy Policy"].map((text, idx) => (
               <Link
