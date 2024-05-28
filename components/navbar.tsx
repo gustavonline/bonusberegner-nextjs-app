@@ -85,7 +85,7 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative" ref={dropdownRef}>
             <Popover.Button
-              className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-paragraphgray-900 focus:outline-none"
+              className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-paragraphgray-900 focus:outline-none hover:text-bonusred"
               onClick={() => setDropdownOpen(!dropdownOpen)}
             >
               🧠 Bliv klogere på
@@ -139,13 +139,13 @@ export default function Navbar() {
 
           <a
             href="#"
-            className="text-sm font-semibold leading-6 text-paragraphgray-900"
+            className="text-sm font-semibold leading-6 text-paragraphgray-900 hover:text-bonusred"
           >
             🇩🇰 Bookmakers
           </a>
           <a
             href="#"
-            className="text-sm font-semibold leading-6 text-paragraphgray-900"
+            className="text-sm font-semibold leading-6 text-paragraphgray-900 hover:text-bonusred"
           >
             🏆 Generel viden
           </a>
