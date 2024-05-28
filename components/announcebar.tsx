@@ -3,7 +3,7 @@ export default function Announcebar() {
       <div className="relative w-full">
         <nav className="px-4 py-2">
           <div className="text-center mx-auto py-1">
-            <p className="text-xs text-center tracking-tight">
+            <p className="text-[0.468em] text-center tracking-tight">
               Bonusberegner.dk er en annonceside.{" "}
               <a href="#" className="text-blue-400 hover:text-blue-600">
                 Sådan tjener vi penge
