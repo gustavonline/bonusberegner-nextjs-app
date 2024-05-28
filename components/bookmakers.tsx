@@ -79,7 +79,7 @@ const Bookmakers: React.FC = () => {
     number | null
   >(null);
   const [sortCriteria, setSortCriteria] = useState<string>("name");
-  const [isMobileView, setIsMobileView] = useState<boolean>(window.innerWidth <= 1000);
+  const [isMobileView, setIsMobileView] = useState<boolean>(false);
   const [selectedBookmakers, setSelectedBookmakers] = useState<Bookmaker[]>([]);
   const [hoveredButtonIndex, setHoveredButtonIndex] = useState<number | null>(
     null
@@ -112,10 +112,15 @@ const Bookmakers: React.FC = () => {
       setIsMobileView(window.innerWidth <= 1000);
     };
 
-    window.addEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      setIsMobileView(window.innerWidth <= 1000);
+      window.addEventListener("resize", handleResize);
+    }
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
     };
   }, []);
 
