@@ -21,20 +21,47 @@ import Image from "next/image";
 
 export interface Bookmaker {
   name: string;
-  logo: string;
-  link: string;
   offer: string;
   offer_type: string;
   bonus_rules: {
-    bonus_type: string;
-    bonus_code: string;
-    minimum_odds: number;
+    minimum_odds: string;
     wagering_requirements: string;
+    minimum_deposit: string;
+    max_deposit: string;
+    bonus_code: string;
+    bonus_type: string;
     potential_win: string;
   };
-  rating: number;
   disclaimer: string;
+  logo: string;
+  link: string;
+  rating: string;
   verified: boolean;
+  contact_info: {
+    email: string;
+    live_chat: string;
+    phone: string;
+  };
+  products: string[];
+  live_streaming: string;
+  license: {
+    danish_license: boolean;
+    license_year: number;
+  };
+  founded: number;
+  overview: string;
+  review: {
+    title: string;
+    introduction: string;
+    freebet_offer: string;
+    game_selection: string;
+    security_measures: string;
+    customer_service: string;
+    special_features: string;
+    conclusion: string;
+    call_to_action: string[];
+  };
+  responsibility_disclaimer: string;
 }
 
 const getColorForOfferType = (offerType: string) => {
