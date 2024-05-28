@@ -16,6 +16,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Image from 'next/image';
 
 const products = [
   {
@@ -57,10 +58,12 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Bonusberegner.dk</span>
-            <img
+            <Image
               className="h-14 w-auto hover:opacity-50 transition:50"
               src="/bb-logo.svg"
-              alt="small logo bonusberegber BB"
+              alt="small logo bonusberegner BB"
+              width={56} // Adjust based on your image dimensions
+              height={56} // Adjust based on your image dimensions
             />
           </a>
         </div>
@@ -163,10 +166,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Bonusberegner.dk</span>
-              <img
+              <Image
                 className="h-14 w-auto"
                 src="/bb-logo.svg"
-                alt="small logo bonusberegber BB"
+                alt="small logo bonusberegner BB"
+                width={56} // Adjust based on your image dimensions
+                height={56} // Adjust based on your image dimensions
               />
             </a>
             <button
