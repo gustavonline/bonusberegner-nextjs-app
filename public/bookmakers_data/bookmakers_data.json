@@ -197,13 +197,13 @@
   },
   {
     "name": "Comeon",
-    "offer": "100% op til 500kr",
+    "offer": "100% op til 1000 kr.",
     "offer_type": "Matched Deposit",
     "bonus_rules": {
       "minimum_odds": "1.80",
       "wagering_requirements": "7x bonus sum",
       "minimum_deposit": "100 kr.",
-      "max_deposit": "500 kr.",
+      "max_deposit": "1000 kr.",
       "bonus_code": "Ingen bonuskode påkrævet",
       "bonus_type": "Med det samme",
       "potential_win": "Bonusbeløb fratrækkes"
