@@ -56,7 +56,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="https://www.bonusberegner.dk/" className="-m-1.5 p-1.5">
             <span className="sr-only">Bonusberegner.dk</span>
             <Image
               className="h-14 w-auto hover:opacity-50 transition:50"

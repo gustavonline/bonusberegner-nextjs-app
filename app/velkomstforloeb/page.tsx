@@ -15,7 +15,7 @@ export default function Velkomstforloeb() {
         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
           <a
             href="#_"
-            className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-arbingblue rounded-full sm:w-auto sm:mb-0 hover:bg-darkarbingblue"
+            className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-bonusred rounded-full sm:w-auto sm:mb-0 hover:bg-darkbonusred"
           >
             Opret dig nu
             <svg
@@ -33,7 +33,7 @@ export default function Velkomstforloeb() {
           </a>
           <a
             href="#onboarding-image"
-            className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-arbingblue border rounded-full border-lightgrey border-2  sm:w-auto sm:mb-0 hover:bg-lightgrey"
+            className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-bonusred border rounded-full border-lightgrey border-2  sm:w-auto sm:mb-0 hover:bg-lightgrey"
           >
             Læs mere..
             <svg
