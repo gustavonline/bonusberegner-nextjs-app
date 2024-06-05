@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Announcebar from "@/components/announcebar";
+import Footer from "@/components/footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.bonusberegner.dk/bb-logo.svg", // Replace with your actual image URL
+        url: "https://www.bonusberegner.dk/BonusBeregnerLogo.png", // Replace with your actual image URL
         width: 800,
         height: 600,
         alt: "Danmarks Bedste Sports Betting Bonusser",
@@ -34,7 +35,7 @@ export const metadata = {
     site: "@bonusberegner", // Replace with your actual Twitter handle
     title: "2024 Bonusberegner | Bedste Sports Betting Bonusser",
     description: "Danmarks Bookmakers. Vi sammenligner de største sider. Opret dig gennem os og få flere tusinde kroner i velkomstbonus.",
-    image: "https://www.bonusberegner.dk/bb-logo.svg", // Replace with your actual image URL
+    image: "https://www.bonusberegner.dk/BonusBeregnerLogo.png", // Replace with your actual image URL
   },
 };
 
@@ -70,6 +71,7 @@ export default function RootLayout({
         <Announcebar />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

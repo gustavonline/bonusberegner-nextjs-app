@@ -1,6 +1,5 @@
 import Bookmakers from "./bookmakers";
 import FAQSection from "./faqsection";
-import Footer from "./footer";
 import { Hero } from "./hero";
 
 export const Landing = () => {
@@ -9,7 +8,6 @@ export const Landing = () => {
       <Hero />
       <Bookmakers />
       <FAQSection />
-      <Footer />
     </>
   );
 };
