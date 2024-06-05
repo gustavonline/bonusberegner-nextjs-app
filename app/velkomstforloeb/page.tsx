@@ -4,7 +4,7 @@ export default function Velkomstforloeb() {
       <div className="flex flex-col items-center gap-4 mb-8 px-4 w-full">
         <h1 className="text-[41px] sm:text-6xl max-w-4xl font-bold transition-all text-center tracking-tight leading-[50px] sm:leading-[60px]">
           <span>Start din </span>
-          <span className="text-transparent bg-clip-text leading-12 bg-gradient-to-r from-arbingblue to-arbinggreen">
+          <span className="text-transparent bg-clip-text leading-12 bg-gradient-to-r from-bonusred to-bonusgold">
             online indkomst{" "}
           </span>
           <span>med ArbingLink i dag!</span>
