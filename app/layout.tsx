@@ -32,7 +32,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@bonusberegner", // Replace with your actual Twitter handle
+    site: "@bonusberegner.dk", // Replace with your actual Twitter handle
     title: "2024 Bonusberegner | Bedste Sports Betting Bonusser",
     description: "Danmarks Bookmakers. Vi sammenligner de største sider. Opret dig gennem os og få flere tusinde kroner i velkomstbonus.",
     image: "https://www.bonusberegner.dk/BonusBeregnerLogo.png", // Replace with your actual image URL
@@ -66,6 +66,7 @@ export default function RootLayout({
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
         <meta name="twitter:image" content={metadata.twitter.image} />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
         <Announcebar />
