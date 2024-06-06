@@ -13,7 +13,7 @@ export const metadata = {
   description: "Danmarks Bookmakers. Vi sammenligner de største sider. Opret dig gennem os og få flere tusinde kroner i velkomstbonus.",
   lang: "da",
   viewport: "width=device-width, initial-scale=1",
-  themeColor: "#C8102E", // Change to your theme color
+  themeColor: "#C8102E",
   keywords: "betting, bonusser, velkomstbonus, bedste betting sider, bonusberegner, sports betting, odds, odds bonus",
   author: "Bonusberegner",
   openGraph: {
@@ -23,7 +23,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.bonusberegner.dk/BonusBeregnerLogo.png", // Replace with your actual image URL
+        url: "https://www.bonusberegner.dk/BonusBeregnerLogo.png",
         width: 800,
         height: 600,
         alt: "Danmarks Bedste Sports Betting Bonusser",
@@ -32,10 +32,10 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@bonusberegner.dk", // Replace with your actual Twitter handle
+    site: "@bonusberegner.dk",
     title: "2024 Bonusberegner | Bedste Sports Betting Bonusser",
     description: "Danmarks Bookmakers. Vi sammenligner de største sider. Opret dig gennem os og få flere tusinde kroner i velkomstbonus.",
-    image: "https://www.bonusberegner.dk/BonusBeregnerLogo.png", // Replace with your actual image URL
+    image: "https://www.bonusberegner.dk/BonusBeregnerLogo.png",
   },
 };
 

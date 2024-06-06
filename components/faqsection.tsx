@@ -51,7 +51,7 @@ const FAQSection = () => {
     <section className="bg-lightgrey">
       <div className="flex flex-col lg:flex-row items-center gap-32 px-4 w-full max-w-6xl mx-auto">
         <div className="w-full p-4 mb-8">
-          <h1 className="font-bold tracking-wide text-center mb-4">Spørgsmål & svar: online sportsbetting</h1>
+          <h1 className="font-bold tracking-wide text-center mb-4">Ofte stillede spørgsmål: online sportsbetting</h1>
           <p className="text-center text-sm mb-4 text-paragraphgray">
             Vi har samlet de mest ofte stillede spørgsmål, så du kan starte din bettingkarriere med så meget medvind som muligt!
           </p>
@@ -73,7 +73,7 @@ const FAQSection = () => {
                   )}
                 </button>
                 {openIndex === index && (
-                  <div className="p-4 mt-2 bg-white border rounded-lg text-sm text-paragraphgray">
+                  <div className="p-4 mt-2 bg-white border rounded-lg text-sm text-black">
                     {faq.answer}
                   </div>
                 )}

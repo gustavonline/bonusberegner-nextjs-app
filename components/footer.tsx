@@ -2,23 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, ChangeEvent } from "react";
 import { MapIcon } from "@heroicons/react/24/outline";
 import ResponsibleGambling from "./responsiblegambling";
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
-
-  function handleChange(event: ChangeEvent<HTMLInputElement>): void {
-    setEmail(event.target.value);
-  }
-
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>): void {
-    event.preventDefault();
-    // Implement subscription logic here
-    alert(`Subscribed with: ${email}`);
-  }
-
   return (
     <footer className="bg-lightgrey text-stoneblack py-8">
       <div className="container mx-auto px-4">
@@ -34,17 +21,6 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <div className="flex justify-center space-x-8">
-            {["rofus", "stopspillet", "spillemyndighederne"].map((src, idx) => (
-              <Image
-                key={idx}
-                src={`/${src}.svg`}
-                alt={src.charAt(0).toUpperCase() + src.slice(1)}
-                width={100}
-                height={100}
-              />
-            ))}
-          </div>
           <div className="flex flex-col items-start md:items-end text-sm">
             <h2 className="font-bold mb-2">Ansvarligt Spil</h2>
             <p>Vi opfordrer til ansvarligt spil</p>
@@ -54,7 +30,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mt-8">
           <div className="w-full max-w-md mb-6 md:mb-0 md:mr-8">
-            <form action="#" onSubmit={handleSubmit}>
+            <form action="#" onSubmit={(e) => e.preventDefault()}>
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                 <div className="relative w-full group">
                   <label
@@ -70,19 +46,18 @@ const Footer = () => {
                     />
                   </div>
                   <input
-                    className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:outline-none focus:ring-bonusred focus:border-bonusred"
+                    className="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:outline-none focus:ring-bonusred focus:border-bonusred"
                     placeholder="Tilmeld dig vores nyhedsbrev"
                     type="email"
                     id="email"
                     required={true}
-                    onChange={handleChange}
                     aria-label="Email address"
                   />
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-bonusred border-bonusred hover:bg-darkbonusred focus:ring-4 focus:ring-bonusred"
+                    className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-bonusred border-bonusred sm:rounded-none sm:rounded-r-lg hover:bg-darkbonusred focus:ring-4 focus:ring-bonusred"
                   >
                     Subscribe
                   </button>
@@ -101,9 +76,21 @@ const Footer = () => {
           </div>
           <ResponsibleGambling />
         </div>
-        <div className="text-center text-sm mt-6">
-          &copy; {new Date().getFullYear()} Bonusberegner.dk. All rights
-          reserved.
+        <div className="flex flex-col items-center mt-6 space-y-4">
+          <div className="flex justify-center space-x-8">
+            {["rofus", "stopspillet", "spillemyndighederne"].map((src, idx) => (
+              <Image
+                key={idx}
+                src={`/${src}.svg`}
+                alt={src.charAt(0).toUpperCase() + src.slice(1)}
+                width={100}
+                height={100}
+              />
+            ))}
+          </div>
+          <div className="text-center text-sm">
+            &copy; 2024 Bonusberegner.dk. All rights reserved.
+          </div>
         </div>
       </div>
     </footer>
