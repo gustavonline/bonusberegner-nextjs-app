@@ -37,7 +37,7 @@ export const Service = () => {
                   <HiUserAdd className="w-8 h-8" />
                 </div>
                 <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
-                  1. Oprettelsen
+                  1. Oprettelse
                 </h3>
                 <p className="mt-4 text-base text-paragraphgrey">
                   Du skal oprette dig på en række bettingsider med vores
