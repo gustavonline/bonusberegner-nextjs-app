@@ -27,12 +27,13 @@ export interface Bookmaker {
   disclaimer: string;
   rating: string;
   affiliate_link: string;
-  badges: {
+  bonus_information: {
     offer_type: string;
     bonus_type: string;
     minimum_odds: string;
     wagering_requirements: string;
     potential_win: string;
+    max_deposit: string;
   };
   review: {
     contact_info_email: string;
@@ -209,27 +210,27 @@ const Bookmakers: React.FC = () => {
               <div className={`w-full ${isMobileView ? 'flex flex-col items-center' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 auto-rows-auto gap-2'} border p-4 bg-white shadow-md rounded-lg transition-shadow duration-200 max-w-4xl`}>
                 <div className="col-span-1">
                   <div className="flex flex-wrap space-x-2">
-                    {bookmaker.badges.offer_type && (
+                    {bookmaker.bonus_information.offer_type && (
                       <div
                         className={`flex items-center p-2 mb-2 rounded-full shadow-md text-white ${getColorForOfferType(
-                          bookmaker.badges.offer_type
+                          bookmaker.bonus_information.offer_type
                         )}`}
                       >
                         <GiftIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium ">
-                          {bookmaker.badges.offer_type}
+                          {bookmaker.bonus_information.offer_type}
                         </p>
                       </div>
                     )}
-                    {bookmaker.badges.bonus_type && (
+                    {bookmaker.bonus_information.bonus_type && (
                       <div
                         className={`flex items-center p-2 mb-2 rounded-full shadow-md text-white ${getColorForOfferType(
-                          bookmaker.badges.bonus_type
+                          bookmaker.bonus_information.bonus_type
                         )}`}
                       >
                         <CheckIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium ">
-                          {bookmaker.badges.bonus_type}
+                          {bookmaker.bonus_information.bonus_type}
                         </p>
                       </div>
                     )}
@@ -237,27 +238,27 @@ const Bookmakers: React.FC = () => {
                 </div>
                 <div className="col-span-2">
                   <div className="flex flex-wrap justify-end items-start space-x-2">
-                    {bookmaker.badges.minimum_odds && (
+                    {bookmaker.bonus_information.minimum_odds && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-blue-500">
                         <TagIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          Min odds: {bookmaker.badges.minimum_odds}
+                          Min odds: {bookmaker.bonus_information.minimum_odds}
                         </p>
                       </div>
                     )}
-                    {bookmaker.badges.wagering_requirements && (
+                    {bookmaker.bonus_information.wagering_requirements && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-yellow-500">
                         <ExclamationCircleIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          {bookmaker.badges.wagering_requirements}
+                          {bookmaker.bonus_information.wagering_requirements}
                         </p>
                       </div>
                     )}
-                    {bookmaker.badges.potential_win && (
+                    {bookmaker.bonus_information.potential_win && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-yellow-500">
                         <ExclamationCircleIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          {bookmaker.badges.potential_win}
+                          {bookmaker.bonus_information.potential_win}
                         </p>
                       </div>
                     )}

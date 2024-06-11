@@ -8,12 +8,12 @@ const ModalCalculator: React.FC<{
   onResetBookmakers: () => void;
 }> = ({ selectedBookmakers, onRemoveBookmaker, onResetBookmakers }) => {
   const totalDeposit = selectedBookmakers.reduce(
-    (sum, bookmaker) => sum + parseInt(bookmaker.bonus_rules.max_deposit),
+    (sum, bookmaker) => sum + parseInt(bookmaker.bonus_information.max_deposit),
     0
   );
 
   const totalBonus = selectedBookmakers.reduce(
-    (sum, bookmaker) => sum + parseInt(bookmaker.bonus_rules.max_deposit),
+    (sum, bookmaker) => sum + parseInt(bookmaker.bonus_information.max_deposit),
     0
   );
 
@@ -57,12 +57,12 @@ const ModalCalculator: React.FC<{
             {selectedBookmakers.map((bookmaker, index) => (
               <div key={index} className="relative group">
                 <a
-                  href={bookmaker.link}
+                  href={bookmaker.affiliate_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={bookmaker.logo}
+                    src={bookmaker.logo_path}
                     alt={`${bookmaker.name} logo`}
                     className="h-10 w-auto rounded-lg border border-gray-200 cursor-pointer"
                   />
