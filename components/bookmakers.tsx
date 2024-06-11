@@ -208,8 +208,8 @@ const Bookmakers: React.FC = () => {
                   )}
               </div>
               <div className={`w-full ${isMobileView ? 'flex flex-col items-center' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 auto-rows-auto gap-2'} border p-4 bg-white shadow-md rounded-lg transition-shadow duration-200 max-w-4xl`}>
-                <div className="col-span-1">
-                  <div className="flex flex-wrap space-x-2">
+                <div className="col-span-1 flex flex-col items-center md:items-start">
+                  <div className="flex flex-wrap justify-center md:justify-start space-x-2">
                     {bookmaker.bonus_information.offer_type && (
                       <div
                         className={`flex items-center p-2 mb-2 rounded-full shadow-md text-white ${getColorForOfferType(
@@ -236,8 +236,8 @@ const Bookmakers: React.FC = () => {
                     )}
                   </div>
                 </div>
-                <div className="col-span-2">
-                  <div className="flex flex-wrap justify-end items-start space-x-2">
+                <div className="col-span-2 flex flex-col items-center md:items-end">
+                  <div className="flex flex-wrap justify-center md:justify-end items-start space-x-2">
                     {bookmaker.bonus_information.minimum_odds && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-blue-500">
                         <TagIcon className="h-4 w-4 mr-1" />
@@ -262,7 +262,7 @@ const Bookmakers: React.FC = () => {
                         </p>
                       </div>
                     )}
-                    <div className="pl-12 flex flex-col items-end">
+                    <div className="flex flex-col items-center md:items-end md:pl-12">
                       <p className="text-xs font-light">Bonus bedømmelse:</p>
                       <div className="flex justify-center items-center mb-2">
                         <StarIcon className="h-5 w-5 text-bonusgold mr-2" />
