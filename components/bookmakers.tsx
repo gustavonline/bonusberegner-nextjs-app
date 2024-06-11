@@ -21,36 +21,29 @@ import Image from "next/image";
 
 export interface Bookmaker {
   name: string;
-  offer: string;
-  offer_type: string;
-  bonus_rules: {
+  logo_path: string;
+  offer_text: string;
+  bonus_code: string;
+  disclaimer: string;
+  rating: string;
+  affiliate_link: string;
+  badges: {
+    offer_type: string;
+    bonus_type: string;
     minimum_odds: string;
     wagering_requirements: string;
-    minimum_deposit: string;
-    max_deposit: string;
-    bonus_code: string;
-    bonus_type: string;
     potential_win: string;
   };
-  disclaimer: string;
-  logo: string;
-  link: string;
-  rating: string;
-  verified: boolean;
-  contact_info: {
-    email: string;
-    live_chat: string;
-    phone: string;
-  };
-  products: string[];
-  live_streaming: string;
-  license: {
+  review: {
+    contact_info_email: string;
+    contact_info_live_chat: string;
+    contact_info_phone: string;
+    products: string[];
+    live_streaming: boolean;
     danish_license: boolean;
     license_year: number;
-  };
-  founded: number;
-  overview: string;
-  review: {
+    founded: number;
+    overview: string;
     title: string;
     introduction: string;
     freebet_offer: string;
@@ -60,8 +53,8 @@ export interface Bookmaker {
     special_features: string;
     conclusion: string;
     call_to_action: string[];
+    responsibility_disclaimer: string;
   };
-  responsibility_disclaimer: string;
 }
 
 const getColorForOfferType = (offerType: string) => {
@@ -216,27 +209,27 @@ const Bookmakers: React.FC = () => {
               <div className={`w-full ${isMobileView ? 'flex flex-col items-center' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 auto-rows-auto gap-2'} border p-4 bg-white shadow-md rounded-lg transition-shadow duration-200 max-w-4xl`}>
                 <div className="col-span-1">
                   <div className="flex flex-wrap space-x-2">
-                    {bookmaker.offer_type && (
+                    {bookmaker.badges.offer_type && (
                       <div
                         className={`flex items-center p-2 mb-2 rounded-full shadow-md text-white ${getColorForOfferType(
-                          bookmaker.offer_type
+                          bookmaker.badges.offer_type
                         )}`}
                       >
                         <GiftIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium ">
-                          {bookmaker.offer_type}
+                          {bookmaker.badges.offer_type}
                         </p>
                       </div>
                     )}
-                    {bookmaker.bonus_rules.bonus_type && (
+                    {bookmaker.badges.bonus_type && (
                       <div
                         className={`flex items-center p-2 mb-2 rounded-full shadow-md text-white ${getColorForOfferType(
-                          bookmaker.bonus_rules.bonus_type
+                          bookmaker.badges.bonus_type
                         )}`}
                       >
                         <CheckIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium ">
-                          {bookmaker.bonus_rules.bonus_type}
+                          {bookmaker.badges.bonus_type}
                         </p>
                       </div>
                     )}
@@ -244,27 +237,27 @@ const Bookmakers: React.FC = () => {
                 </div>
                 <div className="col-span-2">
                   <div className="flex flex-wrap justify-end items-start space-x-2">
-                    {bookmaker.bonus_rules.minimum_odds && (
+                    {bookmaker.badges.minimum_odds && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-blue-500">
                         <TagIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          Min odds: {bookmaker.bonus_rules.minimum_odds}
+                          Min odds: {bookmaker.badges.minimum_odds}
                         </p>
                       </div>
                     )}
-                    {bookmaker.bonus_rules.wagering_requirements && (
+                    {bookmaker.badges.wagering_requirements && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-yellow-500">
                         <ExclamationCircleIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          {bookmaker.bonus_rules.wagering_requirements}
+                          {bookmaker.badges.wagering_requirements}
                         </p>
                       </div>
                     )}
-                    {bookmaker.bonus_rules.potential_win && (
+                    {bookmaker.badges.potential_win && (
                       <div className="flex items-center p-2 mb-2 rounded-full shadow-md text-white bg-yellow-500">
                         <ExclamationCircleIcon className="h-4 w-4 mr-1" />
                         <p className="text-[0.65em] font-medium">
-                          {bookmaker.bonus_rules.potential_win}
+                          {bookmaker.badges.potential_win}
                         </p>
                       </div>
                     )}
@@ -281,7 +274,7 @@ const Bookmakers: React.FC = () => {
                 <div className="col-span-1 sm:col-span-2 md:col-span-3">
                   <div className="flex flex-col sm:flex-row items-center">
                     <Image
-                      src={bookmaker.logo}
+                      src={bookmaker.logo_path}
                       alt={`${bookmaker.name} logo`}
                       width={100} // Set appropriate width
                       height={100} // Set appropriate height
@@ -293,11 +286,11 @@ const Bookmakers: React.FC = () => {
                     <div className="flex flex-col justify-center items-center">
                       <div className="flex justify-center p-2 mr-2 mb-2 w-32 rounded-full text-black border">
                         <p className="text-[0.45em]">
-                          {bookmaker.bonus_rules.bonus_code}
+                          {bookmaker.bonus_code}
                         </p>
                       </div>
                       <a
-                        href={bookmaker.link}
+                        href={bookmaker.affiliate_link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 mb-2 w-[12em] text-center flex items-center justify-center"
@@ -305,28 +298,26 @@ const Bookmakers: React.FC = () => {
                         Gå til {bookmaker.name}
                         <ArrowRightIcon className="h-5 w-5 ml-2" />
                       </a>
-                      <p className="text-xs font-medium">{bookmaker.offer}</p>
+                      <p className="text-xs font-medium">{bookmaker.offer_text}</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-span-1">
-                  {bookmaker.verified && (
-                    <div
-                      className="relative flex items-center bg-lightgrey p-1 w-24 rounded-full shadow-sm cursor-pointer hover:bg-gray-200"
-                      onMouseEnter={() => handleMouseEnter(index)}
-                      onMouseLeave={handleMouseLeave}
-                    >
-                      <CheckCircleIcon className="h-4 w-4 text-green-500 mr-1" />
-                      <p className="text-[0.65em] font-medium text-green-500 px-0.5 py-0.5">
-                        Verificeret
-                      </p>
-                      {hoveredBookmakerIndex === index && (
-                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 bg-stoneblack bg-opacity-80 text-white text-xs rounded-lg shadow-lg p-2">
-                          Vi kontakter hver måned {bookmaker.name} for at få deres vilkår og regler korrigeret. Bonus for dette produkt er ajourført.
-                        </div>
-                      )}
-                    </div>
-                  )}
+                  <div
+                    className="relative flex items-center bg-lightgrey p-1 w-24 rounded-full shadow-sm cursor-pointer hover:bg-gray-200"
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    <CheckCircleIcon className="h-4 w-4 text-green-500 mr-1" />
+                    <p className="text-[0.65em] font-medium text-green-500 px-0.5 py-0.5">
+                      Verificeret
+                    </p>
+                    {hoveredBookmakerIndex === index && (
+                      <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 bg-stoneblack bg-opacity-80 text-white text-xs rounded-lg shadow-lg p-2">
+                        Vi kontakter hver måned {bookmaker.name} for at få deres vilkår og regler korrigeret. Bonus for dette produkt er ajourført.
+                      </div>
+                    )}
+                  </div>
                 </div>
                 <div className="col-span-1"></div>
                 <div className="col-span-1"></div>
