@@ -347,12 +347,13 @@ const Bookmakers: React.FC = () => {
       )}
       {modalVisible && (
         <div
-          className={`fixed bottom-5 right-5 w-[25rem] h-[25rem] bg-white border shadow-lg rounded-lg flex flex-col p-4 ${modalHovered ? "opacity-100" : "opacity-50"}`}
+          className={`fixed bottom-5 right-5 w-[25rem] h-[25rem] max-w-full max-h-full bg-white border shadow-lg rounded-lg flex flex-col p-4`}
           ref={modalRef}
-          onMouseEnter={() => setModalHovered(true)}
-          onMouseLeave={() => setModalHovered(false)}
+          onMouseEnter={() => !isMobileView && setModalHovered(true)}
+          onMouseLeave={() => !isMobileView && setModalHovered(false)}
+          style={{ opacity: isMobileView ? 1 : modalHovered ? 1 : 0.5 }}
         >
-          <div className="flex flex-col bg-lightgrey h-full rounded-lg p-">
+          <div className="flex flex-col bg-lightgrey h-full rounded-lg p-4">
             <div className="flex-grow overflow-y-auto">
               <ModalCalculator
                 selectedBookmakers={selectedBookmakers}

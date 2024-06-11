@@ -69,7 +69,7 @@ const ModalCalculator: React.FC<{
                 </a>
                 <button
                   onClick={() => onRemoveBookmaker(bookmaker)}
-                  className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity"
+                  className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity rounded-lg"
                 >
                   <XMarkIcon className="w-6 h-6" />
                 </button>
