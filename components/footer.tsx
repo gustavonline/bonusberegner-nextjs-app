@@ -7,8 +7,8 @@ import EmailSignup from "./emailsignup";
 
 const Footer = () => {
   return (
-    <footer className="bg-lightgrey text-stoneblack py-8">
-      <div className="container mx-auto px-4">
+    <footer className="w-full bg-lightgrey text-stoneblack py-8 p-8">
+      <div className="mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
           <div className="flex flex-col items-start md:items-start text-sm">
             <div className="flex flex-col items-start gap-2 text-sm">
