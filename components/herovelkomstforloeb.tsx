@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Confetti from "react-confetti";
+import dynamic from "next/dynamic";
+
+const Confetti = dynamic(() => import("react-confetti"), { ssr: false });
 
 export default function HeroVelkomstforloeb() {
   const [showConfetti, setShowConfetti] = useState(true);
@@ -16,7 +18,12 @@ export default function HeroVelkomstforloeb() {
     <div className="relative">
       {showConfetti && (
         <div className="fixed inset-0 z-50 w-full h-full">
-          <Confetti width={window.innerWidth} height={window.innerHeight} numberOfPieces={600} recycle={false} />
+          <Confetti
+            width={typeof window !== 'undefined' ? window.innerWidth : 0}
+            height={typeof window !== 'undefined' ? window.innerHeight : 0}
+            numberOfPieces={600}
+            recycle={false}
+          />
         </div>
       )}
       <section className="mt-16">
@@ -32,14 +39,14 @@ export default function HeroVelkomstforloeb() {
             </h1>
             <p className="text-paragraphgray max-w-xl sm:text-l tracking-tight">
               Bliv en del af vores unikke affiliate program, henvis venner og
-              familie, og tjen yderligere 250 kr. for hver, der gennemfører. <br/>
+              familie, og tjen yderligere 250 kr. for hver, der gennemfører. <br />
               Begrænset pladser – tilmeld dig nu og start din online indkomst 🚀
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start">
               <div className="flex flex-col items-center sm:items-start w-full max-w-xs">
-                <a 
-                  href="https://m.me/arbing.dk?ref=w25912129" 
-                  target="_blank" 
+                <a
+                  href="https://m.me/arbing.dk?ref=w25912129"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full px-6 py-3 text-lg text-white bg-bonusred rounded-lg hover:bg-darkbonusred transition-all duration-300 font-medium"
                 >

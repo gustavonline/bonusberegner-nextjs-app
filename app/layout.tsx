@@ -12,8 +12,6 @@ export const metadata = {
   title: "2024 Bonusberegner | Bedste Sports Betting Bonusser",
   description: "Danmarks Bookmakers. Vi sammenligner de største sider. Opret dig gennem os og få flere tusinde kroner i velkomstbonus.",
   lang: "da",
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#C8102E",
   keywords: "betting, bonusser, velkomstbonus, bedste betting sider, bonusberegner, sports betting, odds, odds bonus",
   author: "Bonusberegner",
   openGraph: {
@@ -39,6 +37,9 @@ export const metadata = {
   },
 };
 
+export const viewport = "width=device-width, initial-scale=1";
+export const themeColor = "#C8102E";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -49,8 +50,8 @@ export default function RootLayout({
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <meta name="viewport" content={metadata.viewport} />
-        <meta name="theme-color" content={metadata.themeColor} />
+        <meta name="viewport" content={viewport} />
+        <meta name="theme-color" content={themeColor} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="author" content={metadata.author} />
         <meta property="og:title" content={metadata.openGraph.title} />
