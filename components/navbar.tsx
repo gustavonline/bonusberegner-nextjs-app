@@ -16,13 +16,13 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
-import Image from 'next/image';
+import Image from "next/image";
 
 const products = [
   {
     name: "Anmeldelser",
     description: "Anmeldelser af bookmakers",
-    href: "#",
+    href: "/anmeldelser",
     icon: BookmarkSquareIcon,
   },
 ];
@@ -37,7 +37,10 @@ export default function Navbar() {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
       setDropdownOpen(false);
     }
   };
@@ -56,7 +59,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="https://www.bonusberegner.dk/" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Bonusberegner.dk</span>
             <Image
               className="h-14 w-auto hover:opacity-50 transition:50"
@@ -77,8 +80,8 @@ export default function Navbar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
           <div className="pl-6 sm:block hidden">
-            <button className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white px-4 py-1 text-sm h-12">
-              <span className="relative z-10">Sammenlign bonusser</span>
+            <button className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white flex items-center justify-center px-4 py-1 text-sm h-12">
+              <span className="relative z-10">Velkomstforløb</span>
             </button>
           </div>
         </div>
@@ -138,22 +141,25 @@ export default function Navbar() {
           </Popover>
 
           <a
-            href="#"
+            href="/"
             className="text-sm font-semibold leading-6 text-paragraphgray-900 hover:text-bonusred"
           >
             🇩🇰 Bookmakers
           </a>
           <a
-            href="#"
+            href="/"
             className="text-sm font-semibold leading-6 text-paragraphgray-900 hover:text-bonusred"
           >
             🏆 Generel viden
           </a>
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white px-4 py-1 text-sm h-12">
-            <span className="relative z-10">Sammenlign bookmakers</span>
-          </button>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end h-12">
+          <a
+            href="/velkomstforloeb"
+            className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white flex items-center justify-center px-4 py-1 text-sm h-12"
+          >
+            <span className="relative z-10">Velkomstforløb</span>
+          </a>
         </div>
       </nav>
       <Dialog
@@ -164,7 +170,7 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-lightgrey px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Bonusberegner.dk</span>
               <Image
                 className="h-14 w-auto"
@@ -215,22 +221,25 @@ export default function Navbar() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-white"
                 >
                   🇩🇰 Bookmakers
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-white"
                 >
                   🏆 Generel viden
                 </a>
               </div>
               <div className="py-6">
-                <button className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white px-4 py-1 text-sm h-12">
-                  <span className="relative z-10">Sammenlign bookmakers</span>
-                </button>
+                <a
+                  href="/velkomstforloeb"
+                  className="relative overflow-hidden bg-white button-move-glow text-bonusred font-medium rounded-lg transition-all before:absolute before:inset-0 before:bg-bonusred before:z-0 before:h-full before:w-0 before:transition-width before:duration-500 hover:before:w-full hover:text-white flex items-center justify-center px-4 py-1 text-sm h-12"
+                >
+                  <span className="relative z-10">Velkomstforløb</span>
+                </a>
               </div>
             </div>
           </div>
