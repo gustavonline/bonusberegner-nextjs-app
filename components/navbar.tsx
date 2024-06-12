@@ -147,7 +147,7 @@ export default function Navbar() {
             🇩🇰 Bookmakers
           </a>
           <a
-            href="/"
+            href="generelviden"
             className="text-sm font-semibold leading-6 text-paragraphgray-900 hover:text-bonusred"
           >
             🏆 Generel viden
@@ -227,7 +227,7 @@ export default function Navbar() {
                   🇩🇰 Bookmakers
                 </a>
                 <a
-                  href="/"
+                  href="/generelviden"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-white"
                 >
                   🏆 Generel viden

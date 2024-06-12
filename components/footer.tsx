@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <footer className="bg-lightgrey text-stoneblack py-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-6 space-y-8 md:space-y-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
           <div className="flex flex-col items-start space-y-2 md:space-y-4">
             {["Generel viden", "Kontakt Os", "Privacy Policy"].map((text, idx) => (
               <Link
-                href={`/${text.toLowerCase().replace(/ /g, "-")}`}
+                href={`/${text.toLowerCase().replace(/ /g, "")}`}
                 key={idx}
                 legacyBehavior
               >
@@ -28,8 +28,9 @@ const Footer = () => {
             <p>Udeluk dig på ROFUS</p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center mt-8">
-          <div className="w-full max-w-md mb-6 md:mb-0 md:mr-8">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div className="md:w-full md:max-w-md">
             <form action="#" onSubmit={(e) => e.preventDefault()}>
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                 <div className="relative w-full group">
@@ -74,8 +75,11 @@ const Footer = () => {
               </div>
             </form>
           </div>
-          <ResponsibleGambling />
+          <div>
+            <ResponsibleGambling />
+          </div>
         </div>
+        
         <div className="flex flex-col items-center mt-6 space-y-4">
           <div className="flex justify-center space-x-8">
             {["rofus", "stopspillet", "spillemyndighederne"].map((src, idx) => (
