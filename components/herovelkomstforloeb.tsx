@@ -44,7 +44,7 @@ export default function HeroVelkomstforloeb() {
             <div className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start">
               <div className="flex flex-col items-center sm:items-start w-full max-w-xs">
                 <a
-                  href="https://m.me/arbing.dk?ref=w25912129"
+                  href="https://m.me/bonusberegner.dk?ref=w26328979"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center w-full px-6 py-3 text-lg text-white bg-bonusred rounded-lg hover:bg-darkbonusred transition-all duration-300 font-medium"
