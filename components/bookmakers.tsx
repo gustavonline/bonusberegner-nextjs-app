@@ -98,7 +98,9 @@ const Bookmakers: React.FC = () => {
     fetchData();
 
     const handleResize = () => {
-      setIsMobileView(window.innerWidth <= 900);
+      if (typeof window !== "undefined") {
+        setIsMobileView(window.innerWidth <= 900);
+      }
     };
 
     if (typeof window !== "undefined") {
@@ -160,10 +162,14 @@ const Bookmakers: React.FC = () => {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    if (typeof document !== "undefined") {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      if (typeof document !== "undefined") {
+        document.removeEventListener("mousedown", handleClickOutside);
+      }
     };
   }, []);
 
@@ -338,13 +344,13 @@ const Bookmakers: React.FC = () => {
             onClick={toggleModal}
             className="bg-bonusred text-white p-4 rounded-lg shadow-lg hover:bg-darkbonusred"
           >
-            Åbn bonus beregner
+            Åbn beregner
           </button>
         </div>
       )}
       {modalVisible && (
         <div
-          className={`fixed bottom-5 right-5 w-[25rem] h-[25rem] max-w-full max-h-full bg-white border shadow-lg rounded-lg flex flex-col p-4`}
+          className={`fixed bottom-5 right-5 w-[25%] h-[55%] max-w-full max-h-full bg-white border shadow-lg rounded-lg flex flex-col p-4`}
           ref={modalRef}
           onMouseEnter={() => !isMobileView && setModalHovered(true)}
           onMouseLeave={() => !isMobileView && setModalHovered(false)}
