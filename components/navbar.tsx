@@ -91,7 +91,7 @@ export default function Navbar() {
               className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-paragraphgray-900 focus:outline-none hover:text-bonusred"
               onClick={() => setDropdownOpen(!dropdownOpen)}
             >
-              🧠 Bliv klogere på
+              🤓 Bliv klogere på
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-paragraphgray-400"
                 aria-hidden="true"
@@ -196,7 +196,7 @@ export default function Navbar() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-white">
-                        🧠 Bliv klogere på
+                        🤓 Bliv klogere på
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",
