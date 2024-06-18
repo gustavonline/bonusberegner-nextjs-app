@@ -35,11 +35,11 @@ export default function HeroVelkomstforloeb() {
               <span className="block text-transparent bg-clip-text leading-12 bg-gradient-to-r from-bonusred to-bonusgold">
                 sportsbetting velkomstforløb!{" "}
               </span>
-              <span>tjen garanteret op til 1500 kr. 🤩</span>
+              <span>tjen op til 1500 kr. garanteret 🤩</span>
             </h1>
             <p className="text-paragraphgray max-w-xl sm:text-l tracking-tight">
-              Bliv en del af vores unikke affiliate program: henvis venner/familie og tjen yderligere 500 kr. for hver, der gennemfører velkomstforløbet. <br />
-              Begrænset pladser – tilmeld dig nu! 🚀
+              Bliv en del af vores unikke affiliate program: henvis venner og familie og tjen yderligere 500 kr. for hver, der gennemfører velkomstforløbet. <br />
+              Begrænset antal pladser – tilmeld dig nu! 🚀
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start">
               <div className="flex flex-col items-center sm:items-start w-full max-w-xs">
