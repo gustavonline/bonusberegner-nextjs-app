@@ -350,7 +350,7 @@ const Bookmakers: React.FC = () => {
       )}
       {modalVisible && (
         <div
-          className={`fixed bottom-5 right-5 w-[25%] h-[55%] max-w-full max-h-full bg-white border shadow-lg rounded-lg flex flex-col p-4`}
+          className={`fixed bottom-5 right-5 w-[80%] h-[55%] md:w-[25%] max-w-full max-h-full bg-white border shadow-lg rounded-lg flex flex-col p-4`}
           ref={modalRef}
           onMouseEnter={() => !isMobileView && setModalHovered(true)}
           onMouseLeave={() => !isMobileView && setModalHovered(false)}
