@@ -222,19 +222,19 @@
   {
     "name": "Spreadex",
     "logo_path": "/bookmakers_data/logos/spreadex.png",
-    "offer_text": "4 x freebet 250 kr.",
+    "offer_text": "4 x freebet 125 kr.",
     "bonus_code": "Ingen bonuskode påkrævet",
     "disclaimer": "Reklame | 18+ | Kun nye spillere | Min. indbetaling: 1.000 kr. | Gratis væddemål: 500 kr. til sportsbook og 500 kr. til spreadbetting efter første indskud gennemspillet 1x til min. odds 1,50 | Gennemspilskrav inden 60 dage | Regler og vilkår gælder | Spil ansvarligt | Spillemyndighedens hjælpelinje StopSpillet.dk: 70 22 28 25 | Udeluk dig via ROFUS.nu",
-    "rating": "9.9",
-    "affiliate_link": "https://www.spreadex.dk/sports/da/1000kr-welcome-bonus/?tid=557878&kw=spreadex&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUpP55nSutmLg8xZPCocHrlDXwtsNm8Ku6KIcYA7zqoR9Q7uZdJkxmBoCLzYQAvD_BwE",
+    "rating": "8.5",
+    "affiliate_link": "https://www.spreadex.dk/sports/da/500kr-welcome-bonus/tid=557878&kw=spreadex&gclid=CjwKCAjwt-OwBhBnEiwAgwzrUpP55nSutmLg8xZPCocHrlDXwtsNm8Ku6KIcYA7zqoR9Q7uZdJkxmBoCLzYQAvD_BwE",
     "theme_color": "#fd0003",
     "bonus_information": {
       "offer_type": "Freebet",
-      "bonus_type": "4 dage - 4 x 250 kr.",
-      "minimum_odds": "1.50",
+      "bonus_type": "4 dage - 4 x 125 kr.",
+      "minimum_odds": "2.00",
       "wagering_requirements": "1x bonusbeløb",
       "potential_win": "Bonusbeløb fratrækkes",
-      "max_deposit": "1000 kr."
+      "max_deposit": "500 kr."
     },
     "review": {
       "contact_info_email": "info@spreadex.com",
