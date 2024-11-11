@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Announcebar from "@/components/announcebar";
 import Footer from "@/components/footer";
+import ChatWidget from "@/components/chat";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
+        <ChatWidget />
         <Announcebar />
         <Navbar />
         {children}
