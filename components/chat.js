@@ -20,7 +20,7 @@ const ChatWidgetLoader = () => {
 
     // Create the script element to load the widget
     const script = document.createElement('script');
-    script.src = 'https://openaiassistantapi-python-fas-tapi-template.vercel.app/static/chat-widget.min.js'; // Replace with your actual URL
+    script.src = 'https://openaiassistantapi-python-fas-git-f5534a-gustavonlines-projects.vercel.app/static/chat-widget.min.js'; // Replace with your actual URL
     script.type = 'text/javascript';
     script.async = true;
     script.onload = loadScript;
